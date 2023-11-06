@@ -1,0 +1,108 @@
+button{
+  margin: 14px 0 14px 0;
+  padding: 6px 12px;
+  border-radius: 5px;
+}
+button:disabled{
+  color: white;
+  background-color: #c7c9d2;
+}
+.button-line-white {
+  color: white;
+  background: none;
+}
+
+.button-line-white:hover {
+  background: #4f5670;
+}
+
+.button-line-white:active {
+  background: #535970;
+  color: white;
+}
+
+.button-blue {
+  display: flex;
+  align-items: center;
+  background-color: var(--blue);
+  color: white;
+}
+
+.button-blue:hover {
+  background-color: #77a1e5;
+}
+
+.button-blue:active {
+  color: white;
+  background: #85a9e3;
+}
+
+
+.button-line-blue {
+  margin: auto;
+  color: var(--blue);
+  background: none;
+  border: 1px var(--blue) solid;
+}
+
+.button-line-blue:hover {
+  color: white;
+  background: var(--blue);
+}
+
+.button-line-blue:active {
+  color: white;
+  background: #739fe5;
+}
+
+.button-search {
+  margin: auto;
+  color: white;
+  background-color: var(--blue);
+  border-radius: 0 5px 5px 0;
+}
+
+.button-big{
+  display: flex;
+  justify-content: center;
+  width: 186px;
+  height: 35px;
+}
+
+.delete-button{
+  color: var(--red);
+  border: 1px var(--red) solid;
+  background-color: white;
+  fill: var(--red);
+}
+
+.delete-button:hover{
+  color: white;
+  background-color: var(--red);
+  fill: white;
+}
+
+.delete-button:active{
+  color: white;
+  background-color: #da564d;
+  fill: white;
+}
+
+.edit-button{
+  color: #FCBA04;
+  border: 1px #FCBA04 solid;
+  background-color: white;
+  fill: #FCBA04;
+}
+
+.edit-button:hover{
+  color: white;
+  background-color: #FCBA04;
+  fill: white;
+}
+
+.edit-button:active{
+  color: white;
+  background-color: #efac08;
+  fill: white;
+}

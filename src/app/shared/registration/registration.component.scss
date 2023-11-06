@@ -1,0 +1,47 @@
+.form-header{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+svg{
+  height: 12px;
+  width: 12px;
+  margin: 8px 0 16px;
+  cursor: pointer;
+}
+
+svg:active{
+  border-radius: 5px;
+  background-color: #CBD5E1;
+}
+
+img{
+  margin-top: 8px;
+}
+
+.other-info{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.check-remember{
+  display: flex;
+  gap: 8px;
+}
+
+.button-login{
+  margin: auto;
+  display: flex;
+  justify-content: center;
+}
+button{
+  margin: 24px 0 0 0;
+}
+.registration-link{
+  margin-top: 8px;
+  display: flex;
+  justify-content: center;
+}
+@import "src/assets/scss/form-styles";
+@import "src/assets/scss/button-styles";
+
